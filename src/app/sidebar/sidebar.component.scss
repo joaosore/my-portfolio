@@ -1,0 +1,29 @@
+nav {
+	position: absolute;
+	width: 100%;
+	height: 75px;
+    z-index: 10;
+    padding-top: 50px;
+    .logo {
+	    display: inline-block;
+	    object {
+			width: 57px;
+			pointer-events: none;
+		}
+    }
+	a {
+		color: #FFF;
+	}
+	ul {
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		li {
+			display: block;
+			float: right;
+			a {
+				padding: .5rem 1.5rem;
+			}
+		}
+	}
+}
